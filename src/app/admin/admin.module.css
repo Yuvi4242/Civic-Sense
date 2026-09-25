@@ -1,0 +1,106 @@
+.container {
+  max-width: 1080px;
+  margin: 2rem auto;
+  padding: 0 1.25rem;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.panel {
+  background-color: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.table th {
+  text-align: left;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid var(--line);
+}
+
+.table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.9rem;
+  vertical-align: middle;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+
+.select {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+}
+
+.saveBtn {
+  background-color: var(--ink);
+  color: #ffffff;
+  border: none;
+  padding: 0.4rem 0.85rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: opacity 0.15s ease;
+}
+
+.saveBtn:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.saveBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.msg {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.successMsg {
+  background-color: var(--forest-bg);
+  color: var(--forest);
+  border: 1px solid var(--forest);
+}
+
+.errorMsg {
+  background-color: var(--brick-bg);
+  color: var(--brick);
+  border: 1px solid var(--brick);
+}

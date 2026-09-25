@@ -1,0 +1,70 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js Build Output
+/.next/
+/out/
+/build
+/dist
+/.turbo
+
+# Local Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Debug & Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Database & SQLite files (if any local testing artifacts)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Uploads & Media (only keep .gitkeep)
+uploads/*
+!uploads/.gitkeep
+tmp/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor Settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo

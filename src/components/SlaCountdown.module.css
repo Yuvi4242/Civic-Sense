@@ -1,0 +1,34 @@
+.timer {
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.onTrack {
+  color: var(--forest);
+}
+
+.nearBreach {
+  color: var(--amber);
+  font-weight: 700;
+}
+
+.breached {
+  color: var(--brick);
+  font-weight: 700;
+}
+
+.resolvedOnTime {
+  color: var(--forest);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.resolvedLate {
+  color: var(--brick);
+  font-size: 0.8rem;
+  font-weight: 600;
+}

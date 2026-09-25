@@ -1,0 +1,27 @@
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.55rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.minor {
+  background-color: #f3f4f6;
+  color: var(--text-muted);
+  border: 1px solid var(--line);
+}
+
+.moderate {
+  background-color: var(--amber-bg);
+  color: var(--amber);
+  border: 1px solid var(--amber);
+}
+
+.severe {
+  background-color: var(--brick-bg);
+  color: var(--brick);
+  border: 1px solid var(--brick);
+}
